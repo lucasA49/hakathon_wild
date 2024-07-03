@@ -3,7 +3,6 @@ import BubbleChat from "../assets/icone/bubble-chat.png";
 import Calendar from "../assets/icone/calendar-2.png";
 import Home from "../assets/icone/home-3.png";
 
-
 export default function Footer() {
   return (
     <footer className="footer-container">
