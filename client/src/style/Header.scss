@@ -1,5 +1,6 @@
 @use "./Variables.scss" as *;
 
 .header-container {
-  background-color: $background-color;
+  background-color: $background-color-container;
+  height: 10vh;
 }
