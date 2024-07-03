@@ -1,4 +1,4 @@
-import{ useState } from "react";
+import { useState } from "react";
 import "../style/infos.scss";
 
 export default function Infos() {
@@ -25,10 +25,14 @@ export default function Infos() {
 
   return (
     <div className="form-container">
-      <img src="" alt="Logo" className="logo" />
-      <h1>Inscription</h1>
+      <img
+        src="hakathon_wild\client\src\assets\images\image-logo-hackathon.jpg"
+        alt="Logo"
+        className="logo-infos"
+      />
       <img src="" alt="Avatar" className="avatar" />
-      <form onSubmit={handleSubmit}>
+      <h1>Renseigne quelques infos </h1>
+      <form className="form-infos" onSubmit={handleSubmit}>
         <label>
           Nom d’utilisateur.rice ou pseudonyme :
           <input
@@ -65,6 +69,7 @@ export default function Infos() {
             name="experience"
             value={formData.experience}
             onChange={handleChange}
+            placeholder="Débutant/Intermédiaire/Avancé"
           />
         </label>
         <label>
@@ -74,6 +79,7 @@ export default function Infos() {
             name="location"
             value={formData.location}
             onChange={handleChange}
+            placeholder="Région/Pays"
           />
         </label>
         <label>
@@ -83,9 +89,12 @@ export default function Infos() {
             name="communication"
             value={formData.communication}
             onChange={handleChange}
+            placeholder="Chat/Vidéo/Forums"
           />
         </label>
-        <button type="submit">Envoyer</button>
+        <button className="button-infos" type="submit">
+          Envoyer
+        </button>
       </form>
     </div>
   );
