@@ -2,7 +2,26 @@
   width: 350px;
   height: 350px;
 }
-.inclusivity {
-  width: 200px;
-  height: 200px;
+#inclusivity {
+  text-align: center;
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+.accueil-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+button {
+  position: relative;
+  top: -30px;
+  right: 110px;
+  width: 80px;
+  color: white;
+  background-color: #ef6024;
+  border: none;
+  border-radius: 20px;
 }
