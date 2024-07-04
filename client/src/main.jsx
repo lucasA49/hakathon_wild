@@ -7,6 +7,7 @@ import App from "./App";
 // import des pages
 
 import Home from "./pages/Home";
+import Ressources from "./pages/Ressources";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/ressources",
+        element: <Ressources />,
       },
     ],
   },
