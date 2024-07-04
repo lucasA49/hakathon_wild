@@ -7,7 +7,9 @@ import Infos from "./pages/Infos";
 // import des pages
 
 import Home from "./pages/Home";
+import Ressources from "./pages/Ressources";
 import Events from "./components/Events";
+import Discussion from "./pages/Discussion";
 
 const router = createBrowserRouter([
   {
@@ -18,8 +20,16 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
+        path: "/ressources",
+        element: <Ressources />,
+      },
+      {
         path: "/events",
         element: <Events />,
+      },
+      {
+        path: "/discussion",
+        element: <Discussion />,
       },
       {
         path: "infos",
