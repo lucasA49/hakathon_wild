@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "../style/infos.scss";
+import logo from "../assets/images/Logo-uniwork.svg";
+import profil from "../assets/images/Photo-profil.svg";
 
 export default function Infos() {
   const [formData, setFormData] = useState({
@@ -25,12 +27,8 @@ export default function Infos() {
 
   return (
     <div className="form-container">
-      <img
-        src="hakathon_wild\client\src\assets\images\image-logo-hackathon.jpg"
-        alt="Logo"
-        className="logo-infos"
-      />
-      <img src="" alt="Avatar" className="avatar" />
+      <img src={logo} alt="Logo" className="logo-infos" />
+      <img src={profil} alt="Avatar" className="avatar" />
       <h1>Renseigne quelques infos </h1>
       <form className="form-infos" onSubmit={handleSubmit}>
         <label>
@@ -40,6 +38,7 @@ export default function Infos() {
             name="username"
             value={formData.username}
             onChange={handleChange}
+            required
           />
         </label>
         <label>

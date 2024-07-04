@@ -1,8 +1,4 @@
-$form-color: #035aa7;
-$form-padding: 20px;
-$form-border-radius: 5px;
-$form-width: 400px;
-$form-margin: 0 auto;
+@use "./Variables.scss" as *;
 
 body {
   font-family: Arial, sans-serif;
@@ -15,22 +11,24 @@ body {
 
 .form-container {
   background-color: #fff;
-  padding: $form-padding;
-  border-radius: $form-border-radius;
-  width: $form-width;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+  position: relative;
 
   .logo-infos {
     width: 100px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    position: absolute;
   }
 
   .avatar {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-top: 100px;
   }
 
   .form-infos {
@@ -46,21 +44,21 @@ body {
         width: 100%;
         padding: 10px;
         margin-top: 5px;
-        border: 1px solid #ccc;
-        border-radius: 3px;
+        border: 1px solid $text-color;
+        border-radius: 10px;
       }
     }
 
     .button-infos {
       padding: 10px;
       border: none;
-      background-color: $form-color;
+      background-color: $text-color;
       color: #fff;
       border-radius: 3px;
       cursor: pointer;
 
       &:hover {
-        background-color: darken($form-color, 10%);
+        background-color: darken($text-color, 10%);
       }
     }
   }
