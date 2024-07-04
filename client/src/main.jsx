@@ -8,7 +8,7 @@ import Infos from "./pages/Infos";
 
 import Home from "./pages/Home";
 import Ressources from "./pages/Ressources";
-import Events from "./components/Events";
+import Events from "./pages/Events";
 import Discussion from "./pages/Discussion";
 
 const router = createBrowserRouter([
