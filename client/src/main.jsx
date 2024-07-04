@@ -23,6 +23,7 @@ const router = createBrowserRouter([
         path: "/ressources",
         element: <Ressources />,
       },
+      {
         path: "/events",
         element: <Events />,
       },
