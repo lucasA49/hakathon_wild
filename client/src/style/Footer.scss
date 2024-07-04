@@ -1,5 +1,25 @@
 @use "./Variables.scss" as *;
 
 .footer-container {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
   background-color: $background-color-container;
+  width: 375px;
+  height: 10vh;
+  padding: 15px;
+  position: sticky;
+  bottom: 0;
+}
+
+.navCalendar {
+  display: flex;
+}
+
+.navHome {
+  display: flex;
+}
+
+.navChat {
+  display: flex;
 }
