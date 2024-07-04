@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import App from "./App";
-
+import Infos from "./pages/Infos";
 // import des pages
 
 import Home from "./pages/Home";
@@ -25,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: "/discussion",
         element: <Discussion />,
+      },
+      {
+        path: "infos",
+        element: <Infos />,
       },
     ],
   },
