@@ -8,6 +8,7 @@ import Infos from "./pages/Infos";
 
 import Home from "./pages/Home";
 import Events from "./components/Events";
+import Discussion from "./pages/Discussion";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "/events",
         element: <Events />,
+      },
+      {
+        path: "/discussion",
+        element: <Discussion />,
       },
       {
         path: "infos",
