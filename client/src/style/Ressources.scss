@@ -1,0 +1,25 @@
+@use "./Variables.scss" as *;
+
+.ressources-container {
+  background-color: $background-color-container;
+
+  h1 {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  p {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.graphic-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.text-graphic {
+  font-size: 0.8rem;
+}
