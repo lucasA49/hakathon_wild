@@ -4,11 +4,11 @@
   display: flex;
   justify-content: center;
   gap: 6rem;
-  background-color: $background-color-container;
+  $background-color-container: #d9d9d9;
   width: 375px;
   height: 10vh;
   padding: 15px;
-  position: sticky;
+  position: fixed;
   bottom: 0;
 }
 
