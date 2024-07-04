@@ -45,6 +45,30 @@
     }
   }
 }
-.wrapper-button {
-  margin: 0 50%;
+
+.message-box {
+  display: flex;
+  width: 100%;
+  padding: 1rem 0;
+  margin-top: 60px;
+  position: relative;
+}
+
+.aera-only {
+  height: 60px;
+  width: 280px;
+  margin: 0 0 0 5rem;
+  border-radius: 20px;
+  background-color: #fbdacc;
+  border-color: #f06a32;
+  right: 3rem;
+}
+
+.apu {
+  border-radius: 50%;
+  aspect-ratio: 1;
+  height: 40px;
+  position: absolute;
+  left: 2rem;
+  top: 0;
 }
