@@ -1,11 +1,117 @@
-#uniwork {
-  width: 350px;
-  height: 350px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.inclusivity {
-  width: 200px;
-  height: 200px;
+
+button {
+  margin-top: 10px;
+  width: 80px;
+  color: white;
+  background-color: #ef6024;
+  border: none;
+  border-radius: 20px;
+}
+.slides {
+  width: 80px;
+  height: 150px;
+  gap: 20px;
+}
+#uniwork {
+  width: 250px;
+  height: 250px;
 }
 .accueil-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.thumb {
+  width: 40px;
+  height: 40px;
+}
+
+ul {
+  padding-inline-start: 0px;
+}
+.event {
+  display: flex;
+  width: 215px;
+  padding: 8px 39px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 10px;
+  border: 2px solid var(--Bleu-fonc, #022859);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.event2 {
+  display: flex;
+  width: 215px;
+  padding: 8px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  color: white;
+  border-radius: 10px;
+  background: var(--Bleu-fonc, #022859);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.carousel .slide img {
+  width: 50%;
+}
+.container-events {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+#btn {
+  width: 200px;
+  display: inline-flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: var(--Bleu-clair, #035aa7);
+}
+.rgbd ul {
+  list-style-type: none;
+  text-decoration-line: underline;
+}
+
+@media (max-width: 400px) {
+  #uniwork {
+    width: 150px;
+    height: 150px;
+  }
+  .accueil-container {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.Carousel .slide img {
+  width: 50%;
+}
+h2 {
+  text-align: center;
+}
+ul.thumb.animated {
+  height: 20px;
+}
+.container-events {
+  gap: 20px;
+}
+.event .event2 {
+  width: 120px;
+}
+.carousel.carousel-slider .control-arrow {
+  display: none;
+}
+.carousel .carousel-status {
+  display: none;
 }
