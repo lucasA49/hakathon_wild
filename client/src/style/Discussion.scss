@@ -45,6 +45,87 @@
     }
   }
 }
-.wrapper-button {
-  margin: 0 50%;
+
+.message-box {
+  display: flex;
+  width: 100%;
+  padding: 1rem 0;
+  margin-top: 60px;
+  position: relative;
+}
+
+.aera-only {
+  height: 60px;
+  width: 280px;
+  margin: 0 0 0 5rem;
+  border-radius: 20px;
+  background-color: #fbdacc;
+  border-color: #f06a32;
+  right: 3rem;
+}
+
+.apu {
+  border-radius: 50%;
+  aspect-ratio: 1;
+  height: 40px;
+  position: absolute;
+  left: 2rem;
+  top: 0;
+}
+.bart {
+  border-radius: 50%;
+  aspect-ratio: 1;
+  height: 40px;
+  position: absolute;
+  right: 0.5rem;
+  bottom: -3rem;
+}
+.aera-only1 {
+  height: 60px;
+  width: 280px;
+  margin: 0 0 0 5rem;
+  border-radius: 10px;
+  background-color: #f1931f;
+  border-color: #f1931f;
+  right: 3rem;
+  bottom: -5.6rem;
+  position: absolute;
+}
+.aera-only2 {
+  height: 60px;
+  width: 280px;
+  margin: 0 0 0 5rem;
+  border-radius: 10px;
+  background-color: #fbdacc;
+  border-color: #f06a32;
+  right: 2rem;
+  position: absolute;
+  bottom: -11.5rem;
+}
+.apu1 {
+  border-radius: 50%;
+  aspect-ratio: 1;
+  height: 40px;
+  position: absolute;
+  left: 1rem;
+  bottom: -9rem;
+}
+.bart1 {
+  border-radius: 50%;
+  aspect-ratio: 1;
+  height: 40px;
+  position: absolute;
+  right: 0.5rem;
+  bottom: -15rem;
+}
+.aera-only3 {
+  height: 60px;
+  width: 280px;
+  margin: 0 0 0 5rem;
+  border-radius: 10px;
+  background-color: #fbdacc;
+  border-color: #f06a32;
+  right: 3rem;
+  position: absolute;
+  bottom: -17rem;
 }

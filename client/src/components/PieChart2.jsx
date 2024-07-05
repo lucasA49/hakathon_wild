@@ -8,12 +8,12 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 // Déclaration de fonction
 function PieChart() {
   const data = {
-    labels: ["Oui", "Non", "Je ne sais pas"],
+    labels: ["Non", "Oui"],
     datasets: [
       {
-        data: [65, 18, 17],
-        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
-        hoverBackgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
+        data: [81, 19],
+        backgroundColor: ["#4BC0C0", "#9966FF"],
+        hoverBackgroundColor: ["#4BC0C0", "#9966FF"],
       },
     ],
   };
