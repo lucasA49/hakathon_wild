@@ -4,3 +4,55 @@
   background-color: $background-color-container;
   height: 80vh;
 }
+
+.logo {
+  margin-left: 125px;
+  width: 110px;
+  height: 69.955px;
+  align-items: center;
+  justify-content: center;
+  bottom: -2rem;
+  margin-top: 2.5rem;
+}
+
+.profil {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  margin-left: 20rem;
+  margin-top: 1.7rem;
+}
+
+.div-accueil {
+  display: flex;
+}
+
+.title-home {
+  color: var(--Bleu-fonc, #022859);
+  text-align: center;
+  font-feature-settings:
+    "clig" off,
+    "liga" off;
+  font-family: Darkmode;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 2rem;
+  margin-left: 34px;
+}
+
+.p-home {
+  padding-top: 4.1rem;
+  padding-left: 2.2rem;
+  position: absolute;
+  color: var(--Bleu-fonc, #022859);
+  font-feature-settings:
+    "clig" off,
+    "liga" off;
+  font-family: Darkmode;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
