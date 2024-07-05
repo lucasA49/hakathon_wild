@@ -1,49 +1,108 @@
-.App {
-  text-align: center;
-}
+@import "Variables.scss";
 
-header {
+.Events {
+  background-color: $background-color-container;
+  color: $text-color;
   padding: 20px;
-  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
 }
 
-main {
-  padding: 20px;
+.header-events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-.event-cards {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-}
-
-.event-card {
-  background-color: #ffffff;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  padding: 20px;
-}
-
-.event-card h2 {
-  font-size: 1.5rem;
+.h1-events {
+  font-size: 2em;
   margin-bottom: 10px;
 }
 
-.event-card p {
-  font-size: 1rem;
-  color: #666;
-  margin-bottom: 15px;
-}
-
-.event-card button {
-  background-color: #007bff;
-  color: white;
-  border: none;
-  padding: 10px 20px;
+.search-bar-events {
+  display: flex;
+  align-items: center;
+  background-color: white;
   border-radius: 5px;
-  cursor: pointer;
+  border: 1px solid rgb(242, 164, 17);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 5px;
 }
 
-.event-card button:hover {
-  background-color: #0056b3;
+.input-events {
+  border: none;
+  padding: 10px;
+  font-size: 1em;
+  flex-grow: 1;
+  border-radius: 5px 0 0 5px;
+}
+
+.input-events:focus {
+  outline: none;
+}
+
+.search-icon {
+  width: 24px;
+  height: 24px;
+  margin: 5px;
+  fill: $background-color-icone;
+}
+
+.main-events {
+  .event-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .event-card {
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid rgb(6, 6, 169);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: calc(50% - 20px); /* Assure deux cartes par rangée avec un espace */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .img-events {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 25px 25px 0 0;
+  }
+
+  .h2-events {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+
+  .p-events {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+
+  .button-events {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: auto;
+    margin: 25px;
+    height: 45px;
+  }
+
+  .button-events:hover {
+    background-color: darken(rgb(198, 134, 16), 10%);
+  }
+
+  .button-events:focus {
+    outline: none;
+  }
 }
