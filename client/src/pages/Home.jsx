@@ -1,7 +1,11 @@
+import Accueil from "../components/accueil";
+import HeaderHome from "../components/HeaderHome";
+
 export default function Home() {
   return (
-    <div className="home-container">
-      <p>Composants Home</p>
-    </div>
+    <>
+      <HeaderHome />
+      <Accueil />
+    </>
   );
 }
